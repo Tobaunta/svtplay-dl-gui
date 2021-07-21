@@ -4,7 +4,6 @@ import os
 
 master = Tk()
 master.title("svtplay-dl")
-master.iconbitmap('icon.ico')
 fullFrame = LabelFrame(master, text="SVT-Play Downloader GUI", padx=10, pady=10)
 fullFrame.grid(padx=10, pady=10)
 userFrame = LabelFrame(master, text="Username and password (if needed)", padx=10, pady=10)
